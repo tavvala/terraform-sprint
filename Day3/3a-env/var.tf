@@ -7,17 +7,17 @@ locals {
 variable "org_name" {
   description = "Azure region to deploy resources in"
   type  = string
-  default = "ts1"
+  default = "ts"
 }
 
 variable "rg_prefix" {
   type  = string
-  default = "rg1"
+  default = "rg"
 }
 
 variable "st_prefix" {
   type  = string
-  default = "st1"
+  default = "st"
 }
 
 variable "sb_prefix" {
@@ -32,12 +32,12 @@ variable "env" {
 
 variable "main_project" {
     type  = string
-    default = "netflix1"
+    default = "netflix"
 }
 
 variable "sub_project" {
     type  = string
-    default = "1"
+    default = "001"
 }
 
 variable "location" {
